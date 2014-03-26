@@ -28,7 +28,7 @@ mediaQuery.addListener(function(changed) {
 
 ### Browsers
 
-IE 9+
+IE 10+
 
 ### Projects
 
