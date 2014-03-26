@@ -1,0 +1,38 @@
+# Media Queries in JS
+
+In JS we can use media queries:
+
+```js
+var mediaQuery = window.matchMedia('(max-width: 700px)');
+
+if ( mediaQuery.matches ) {
+    console.log( 'the width is more then 700px' );
+} else {
+    console.log( 'the width is less then 700px' );
+}
+```
+
+Also we can use events:
+
+```js
+var mediaQuery = window.matchMedia('(max-width: 700px)');
+
+mediaQuery.addListener(function(changed) {
+    if ( changed.matches ) {
+        console.log( 'the width is more then 700px' );
+    } else {
+        console.log( 'the width is less then 700px' );
+    }
+});
+```
+
+### Browsers
+
+IE 9+
+
+### Links
+
+<https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries>
+
+<https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Testing_media_queries>
+<https://developer.mozilla.org/en-US/docs/Web/API/window.matchMedia>
