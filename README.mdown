@@ -28,12 +28,12 @@ mediaQuery.addListener(function(changed) {
 
 ### Browsers
 
-IE 10+
+IE 9+
 
 ### Projects
 
-<https://github.com/WickyNilliams/enquire.js>
 <https://github.com/paulirish/matchMedia.js/>
+<https://github.com/WickyNilliams/enquire.js>
 
 ### Links
 
